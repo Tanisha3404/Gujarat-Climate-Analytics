@@ -1,0 +1,35 @@
+
+# Virtual environments
+venv/
+venv311/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Large datasets and model artifacts
+Data/preprocessed/lstm_data.pkl
+models/models_results/tree_results.pkl
